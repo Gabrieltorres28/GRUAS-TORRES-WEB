@@ -134,20 +134,25 @@ export default function Racing() {
               </div>
             </motion.div>
           </div>
+<motion.div variants={itemVariants}>
+  <Tabs defaultValue="schedule" className="w-full">
+    <TabsList
+      className="flex flex-wrap justify-center gap-2 mb-8 w-full"
+    >
+      <TabsTrigger value="schedule" className="text-sm sm:text-base truncate px-2 py-1">
+        Calendario
+      </TabsTrigger>
+      <TabsTrigger value="specs" className="text-sm sm:text-base truncate px-2 py-1">
+        Especificaciones
+      </TabsTrigger>
+      <TabsTrigger value="sponsors" className="text-sm sm:text-base truncate px-2 py-1">
+        Sponsors
+      </TabsTrigger>
+    </TabsList>
 
-          <motion.div variants={itemVariants}>
-            <Tabs defaultValue="schedule" className="w-full">
-              <TabsList className="grid w-full grid-cols-3 mb-8">
-                <TabsTrigger value="schedule" className="text-lg">
-                Calendario de Carreras
-                </TabsTrigger>
-                <TabsTrigger value="specs" className="text-lg">
-                Especificaciones del coche
-                </TabsTrigger>
-                <TabsTrigger value="sponsors" className="text-lg">
-                  Sponsors
-                </TabsTrigger>
-              </TabsList>
+  
+
+
 
               <TabsContent value="schedule" className="mt-0">
                 <div className="bg-gray-900 rounded-lg p-6">
