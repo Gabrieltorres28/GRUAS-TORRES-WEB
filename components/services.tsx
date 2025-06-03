@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { motion } from "framer-motion"
 import { useInView } from "framer-motion"
@@ -141,7 +141,7 @@ export default function Services() {
             </div>
             <div className="relative h-[400px] rounded-lg overflow-hidden shadow-xl">
               <Image
-                src="/flota.png?height=800&width=600"
+                src="/flota.png?"
                 alt="Tow truck fleet"
                 fill
                 className="object-cover object-center"

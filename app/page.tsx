@@ -6,7 +6,7 @@ import Contact from "@/components/contact"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Torres Asistencia Vial | Roadside Assistance & Towing Service",
+  title: "Gruas Torres Web",
   description:
     "Professional roadside assistance and towing service led by Armando Torres, TC Cuatromil competitor. 24/7 support and quick response times.",
   keywords: "roadside assistance, towing service, TC Cuatromil, Armando Torres, emergency towing",
